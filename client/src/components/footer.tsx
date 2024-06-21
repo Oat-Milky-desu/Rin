@@ -66,8 +66,9 @@ function Footer() {
                     <ThemeButton mode='system' current={modeState} label="Toggle system mode" icon="ri-computer-line" onClick={setMode} />
                     <ThemeButton mode='dark' current={modeState} label="Toggle dark mode" icon="ri-moon-line" onClick={setMode} />
                 </div>
+                <a href="https://icp.gov.moe/?keyword=20240628" target="_blank">萌ICP备20240628</a>
             </div>
-            <a href="https://icp.gov.moe/?keyword=20240628" target="_blank">萌ICP备20240628</a>
+            
         </footer>
     );
 }
